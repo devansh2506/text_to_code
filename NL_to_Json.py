@@ -50,7 +50,7 @@ NO explanations, NO markdown, NO extra text.
 """
 
 
-def generate_dsl_json(nl_query, api_key="AIzaSyBTurwXnyF_v0dVSbkdC3MPHxg9mrIfNkA"):
+def generate_dsl_json(nl_query, api_key="ENTER YOUR OWN API KEY"):
     client = genai.Client(api_key=api_key)
 
     response = client.models.generate_content(
