@@ -1,6 +1,5 @@
 from lark import Transformer
 
-
 class DSLTransformer(Transformer):
     def start(self, items):
         return {

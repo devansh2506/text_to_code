@@ -1,8 +1,8 @@
-from text_to_code.NL_to_Json import generate_dsl_json
-from text_to_code.json_to_DSL import json_to_dsl_text
-from text_to_code.DSL_to_LarkTree import parse_dsl
-from text_to_code.LarkTree_to_AST import transform_tree_to_ast
-from text_to_code.AST_to_Code import generate_full_code
+from NL_to_Json import generate_dsl_json
+from json_to_DSL import json_to_dsl_text
+from DSL_to_LarkTree import parse_dsl
+from LarkTree_to_AST import transform_tree_to_ast
+from AST_to_Code import generate_full_code
 
 def run_pipeline(nl_query):
     print("--- 1. Generating JSON ... ---")

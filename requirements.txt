@@ -1,0 +1,4 @@
+google-genai
+lark
+pandas
+pandas_ta
